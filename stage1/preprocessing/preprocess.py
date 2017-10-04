@@ -7,6 +7,7 @@ import pandas as pd
 import os
 import re
 
+import tsahelper as tsa
 import tensorflow as tf
 import tflearn
 from tflearn.layers.conv import conv_2d, max_pool_2d
@@ -457,7 +458,7 @@ def train_conv_net():
                       validation_set=({'features': val_features}, {'labels': val_labels}), 
                       shuffle=True, snapshot_step=None, show_metric=True, 
                       run_id=MODEL_NAME)
-            
+
 # unit test -----------------------------------
 #train_conv_net()
 
