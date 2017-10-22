@@ -369,6 +369,25 @@ def get_crop_dimensions(angle, zone):
 
 # Use this function for batch processing, see test() for example
 # No Thresholding done yet
+# Returns
+#
+# zones = [
+#     [ #1
+#         ['img_1', 'img_2', ...],
+#         ['label_1', 'label_2', ...]
+#     ],
+#     [ #2
+#         ['img_1', 'img_2', ...],
+#         ['label_1', 'label_2', ...]
+#     ],
+#     ...
+#     ...
+#     ...
+#     [ #17
+#         ['img_1', 'img_2', ...],
+#         ['label_1', 'label_2', ...]
+#     ],
+# ]
 def get_cropped_zones(data_dir, filelist, file_extension, angle):
     zones = []
     #zones.append((None, None))
