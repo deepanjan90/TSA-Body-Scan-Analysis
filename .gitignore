@@ -1,3 +1,5 @@
 __pycache__/
 tsa_datasets/
 test/
+dataset/
+model_output/
