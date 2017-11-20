@@ -3,3 +3,4 @@ tsa_datasets/
 test/
 dataset/
 model_output/
+.*

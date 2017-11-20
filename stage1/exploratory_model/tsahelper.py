@@ -52,9 +52,9 @@ sector16_pts = np.array([[256,600],[512,600],[512,660],[256,660]], np.int32)
 # In[3]:
 
 
-body_zones_img = plt.imread(BODY_ZONES)
-fig, ax = plt.subplots(figsize=(8,8))
-ax.imshow(body_zones_img)
+# body_zones_img = plt.imread(BODY_ZONES)
+# fig, ax = plt.subplots(figsize=(8,8))
+# ax.imshow(body_zones_img)
 
 
 # In[4]:
